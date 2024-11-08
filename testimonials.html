@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials - Your Name</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navbar (sama seperti di halaman lain) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Your Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="testimonials-header">
+        <div class="container text-center">
+            <h1 class="display-4">Client Testimonials</h1>
+            <p class="lead">What my clients say about my work</p>
+        </div>
+    </header>
+    
+    <main class="container py-5">
+        <!-- Testimonial Statistics -->
+        <div class="row text-center mb-5">
+            <div class="col-md-3" data-aos="fade-up">
+                <div class="stat-card">
+                    <i class="fas fa-smile fa-3x text-primary mb-3"></i>
+                    <h3 class="counter" data-target="150">0</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="stat-card">
+                    <i class="fas fa-project-diagram fa-3x text-success mb-3"></i>
+                    <h3 class="counter" data-target="250">0</h3>
+                    <p>Projects Completed</p>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-card">
+                    <i class="fas fa-award fa-3x text-warning mb-3"></i>
+                    <h3 class="counter" data-target="20">0</h3>
+                    <p>Awards Won</p>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="stat-card">
+                    <i class="fas fa-clock fa-3x text-info mb-3"></i>
+                    <h3 class="counter" data-target="10000">0</h3>
+                    <p>Hours of Work</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Testimonial Carousel -->
+        <div id="testimonialCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="featured-testimonial text-center" data-aos="fade-up">
+                        <img src="12d04988-3af0-4af4-bdf5-c66b97d4ba81.jpg" width="150" height="150" alt="Sarah Johnson" class="rounded-circle mb-3">
+                        <h4>Akmal Raditya Wijaya</h4>
+                        <p class="lead">"[Your Name] transformed our online presence. Their expertise in web development and design is unmatched. We saw a 200% increase in user engagement after launching our new website!"</p>
+                        <div class="rating">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="featured-testimonial text-center" data-aos="fade-up">
+                        <img src="12d04988-3af0-4af4-bdf5-c66b97d4ba81.jpg" width="150" height="150" alt="Sarah Johnson" class="rounded-circle mb-3">
+                        <h4>Mark Thompson</h4>
+                        <p class="lead">"The level of creativity and technical skill [Your Name] brings to the table is truly impressive. They don't just meet expectations, they exceed them in every way."</p>
+                        <div class="rating">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+        <!-- Testimonial Grid -->
+        <div class="row" id="testimonialGrid">
+            <!-- Testimonial cards will be dynamically added here -->
+        </div>
+    
+        <!-- Load More Button -->
+        <div class="text-center mt-4">
+            <button id="loadMoreBtn" class="btn btn-primary">Load More Testimonials</button>
+        </div>
+    
+        <!-- Client Logos -->
+        <div class="client-logos mt-5">
+            <h3 class="text-center mb-4">Trusted by Industry Leaders</h3>
+            <div class="logo-carousel">
+                <!-- Add your client logos here -->
+                <img src="https://via.placeholder.com/150x50" alt="Client 1">
+                <img src="https://via.placeholder.com/150x50" alt="Client 2">
+                <img src="https://via.placeholder.com/150x50" alt="Client 3">
+                <img src="https://via.placeholder.com/150x50" alt="Client 4">
+                <img src="https://via.placeholder.com/150x50" alt="Client 5">
+            </div>
+        </div>
+    
+        <!-- Call to Action -->
+        <div class="text-center mt-5" data-aos="fade-up">
+            <h3>Ready to Join Our Success Stories?</h3>
+            <p>Let's create something amazing together!</p>
+            <a href="contact.html" class="btn btn-primary btn-lg">Start Your Project Now</a>
+        </div>
+    </main>
+
+    <!-- Footer (sama seperti di halaman lain) -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Akmal Raditya Wijaya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start" data-aos="fade-right">
+                    <h1 class="display-4 fw-bold mb-3">Welcome to My Portfolio</h1>
+                    <p class="lead mb-4">Web Developer & Designer</p>
+                    <button class="btn btn-primary btn-lg">Contact Me</button>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-left">
+                    <img src="12d04988-3af0-4af4-bdf5-c66b97d4ba81.jpg" width="200" height="200" alt="Akmal Raditya Wijaya" class="rounded-circle mb-4" data-aos="zoom-in">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- About Section -->
+        <section id="about" class="py-5">
+            <div class="container text-center">
+                <h2 class="display-4 mb-4">About Me</h2>
+                <p class="lead">With over 5 years of experience, I specialize in creating beautiful and functional websites.</p>
+                <p>My expertise includes HTML, CSS, JavaScript, and various modern frameworks.</p>
+                <a href="about.html" class="btn btn-primary mt-3">Learn More About Me</a>
+            </div>
+        </section>
+    
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="display-4 mb-4">My Portfolio</h2>
+                <div class="row">
+                    <!-- Portfolio Item 1 -->
+                    <div class="col-md-4 mb-4" data-aos="fade-up">
+                        <div class="card">
+                            <img src="laravel.png" class="card-img-top" alt="Project 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Laravel</h5>
+                                <p class="card-text">Brief description of the project.</p>
+                                <a href="project-view.html" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2 -->
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card">
+                            <img src="python.jpg" class="card-img-top" alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Python</h5>
+                                <p class="card-text">Brief description of the project.</p>
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3 -->
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card">
+                            <img src="c++.jpg" class="card-img-top" alt="Project 3">
+                            <div class="card-body">
+                                <h5 class="card-title">C++</h5>
+                                <p class="card-text">Brief description of the project.</p>
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="portfolio.html" class="btn btn-secondary mt-3">See All Projects</a>
+            </div>
+        </section>
+    
+        <!-- Services Section -->
+        <section id="services" class="py-5">
+            <div class="container text-center">
+                <h2 class="display-4 mb-4">My Services</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4" data-aos="fade-up">
+                        <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                        <h5>Web Development</h5>
+                        <p>Building responsive and functional websites tailored to your needs.</p>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-paint-brush fa-3x mb-3"></i>
+                        <h5>UI/UX Design</h5>
+                        <p>Creating user-friendly interfaces that enhance user experience.</p>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-search fa-3x mb-3"></i>
+                        <h5>SEO Optimization</h5>
+                        <p>Improving your website's visibility on search engines.</p>
+                    </div>
+                </div>
+                <a href="services.html" class="btn btn-secondary mt-3">View All Services</a>
+            </div>
+        </section>
+    
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="display-4 mb-4">What Clients Say</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4" data-aos="fade-up">
+                        <div class="testimonial-card">
+                            <p>"Great experience! The project was completed on time and exceeded my expectations."</p>
+                            <h5>- Alex Michael</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="fade-up">
+                        <div class="testimonial-card">
+                            <p>"Professional and dedicated. I highly recommend their services!"</p>
+                            <h5>- Robert Antony</h5>
+                        </div>
+                    </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <p>"Fantastic work! They understood my vision and brought it to life."</p>
+                        <h5>- Lewis Hamilton</h5>
+                    </div>
+                </div>
+            </div>
+            <a href="testimonials.html" class="btn btn-secondary mt-3">Read More Testimonials</a>
+        </div>
+    </section>
+
+    <!-- Contact Section with enhanced form -->
+    <header class="contact-header">
+        <div class="container text-center">
+            <h1 class="display-4">Get in Touch</h1>
+            <p class="lead">I'm always excited to work on new projects. Let's create something amazing together!</p>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <div class="row">
+            <div class="col-lg-6 mb-4" data-aos="fade-right">
+                <h2 class="mb-4">Contact Information</h2>
+                <ul class="list-unstyled contact-info">
+
+                    <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
+                    <li><i class="fas fa-envelope"></i> contact@yourname.com</li>
+                </ul>
+                <h3 class="mt-5 mb-3">Follow Me</h3>
+                <div class="social-icons">
+                    <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="mt-5">
+                    <h3 class="mb-3">Office Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    <p>Saturday - Sunday: Closed</p>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <h2 class="mb-4">Send Me a Message</h2>
+            
+                <div id="alert" class="alert" style="display: none;">
+                    <strong>Success!</strong> Your message has been sent.
+                </div>
+            
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" id="submitBtn" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Enhanced Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 My Portfolio. All rights reserved.</p>
+                </div>
+                <div class=" col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white me-3">Privacy Policy</a>
+                    <a href="#" class="text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>

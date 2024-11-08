@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Back</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Project Header -->
+    <header class="project-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4">CRUD</h1>
+                    <p class="lead">A brief description of the project</p>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-primary me-2">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="btn btn-outline-light">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Project Content -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Project Details -->
+            <div class="col-lg-8">
+                <div class="mb-5" data-aos="fade-up">
+                    <h2>Project Overview</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <!-- Development Process -->
+                <div class="mb-5" data-aos="fade-up">
+                    <h3>Development Process</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>Concept and Planning</h4>
+                                <p>Initial brainstorming, requirement gathering, and project scope definition.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>Design and Prototyping</h4>
+                                <p>Creating wireframes, mockups, and interactive prototypes.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>Development</h4>
+                                <p>Writing code, implementing features, and integrating APIs.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-vial"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>Testing and Quality Assurance</h4>
+                                <p>Thorough testing, bug fixing, and performance optimization.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>Deployment and Launch</h4>
+                                <p>Final preparations, deployment to production, and project launch.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Challenges and Solutions -->
+                <div class="mb-5" data-aos="fade-up">
+                    <h3>Challenges and Solutions</h3>
+                    <div class="accordion" id="challengesAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#challenge1">
+                                    Challenge 1: Performance Optimization
+                                </button>
+                            </h2>
+                            <div id="challenge1" class="accordion-collapse collapse show" data-bs-parent="#challengesAccordion">
+                                <div class="accordion-body">
+                                    <p>Description of the challenge and how it was overcome...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#challenge2">
+                                    Challenge 2: Cross-browser Compatibility
+                                </button>
+                            </h2>
+                            <div id="challenge2" class="accordion-collapse collapse" data-bs-parent="#challengesAccordion">
+                                <div class="accordion-body">
+                                    <p>Description of the challenge and how it was overcome...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more challenges as needed -->
+                    </div>
+                </div>
+                 <!-- Project Impact -->
+                 <div class="mb-5" data-aos="fade-up">
+                    <h3>Project Impact</h3>
+                    <div class="row g-4">
+                        <div class="col-md-4 text-center">
+                            <div class="impact-item">
+                                <i class="fas fa-users fa-3x mb-3"></i>
+                                <h4>10,000+</h4>
+                                <p>Active Users</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="impact-item">
+                                <i class="fas fa-chart-line fa-3x mb-3"></i>
+                                <h4>30%</h4>
+                                <p>Increase in Efficiency</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="impact-item">
+                                <i class="fas fa-star fa-3x mb-3"></i>
+                                <h4>4.8/5</h4>
+                                <p>User Satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <!-- Testimonials -->
+                  <div class="mb-5" data-aos="fade-up">
+                    <h3>Client Testimonials</h3>
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="card-text">"This project exceeded our expectations. The team was professional and delivered high-quality work on time."</p>
+                                        <footer class="blockquote-footer">John Doe, <cite title="Source Title">CEO, Company Name</cite></footer>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="card-text">"The solution provided has significantly improved our business processes. We're very satisfied with the results."</p>
+                                        <footer class="blockquote-footer">Jane Smith, <cite title="Source Title">CTO, Another Company</cite></footer>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- Project Images -->
+                <div class="mb-5" data-aos="fade-up">
+                    <h3>Screenshots</h3>
+                    <div class="row g-3 mt-2">
+                        <div class="col-md-6">
+                            <img src="1.png" alt="Screenshot 1" class="img-fluid project-image">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="2.png" alt="Screenshot 2" class="img-fluid project-image">
+                        </div>
+                        <div class="col-12">
+                            <img src="3.png" alt="Screenshot 3" class="img-fluid project-image">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="4.png" alt="Screenshot 4" class="img-fluid project-image">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="5.png" alt="Screenshot 5" class="img-fluid project-image">
+                        </div>
+                        <div class="col-12">
+                            <img src="6.png" alt="Screenshot 6" class="img-fluid project-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Features -->
+                <div class="mb-5" data-aos="fade-up">
+                    <h3>Key Features</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            Feature 1 description
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            Feature 2 description
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            Feature 3 description
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Implementation Details -->
+                <div class="mb-5" data-aos="fade-up">
+                    <h3>Implementation</h3>
+                    <p>Detailed explanation of how the project was implemented, challenges faced, and solutions found.</p>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-lg-4">
+                <div class="card sticky-top" style="top: 80px;" data-aos="fade-left">
+                    <div class="card-body">
+                        <h4>Project Details</h4>
+                        <hr>
+                        <div class="mb-3">
+                            <h6>Client</h6>
+                            <p>Hummasoft Technology</p>
+                        </div>
+                        <div class="mb-3">
+                            <h6>Duration</h6>
+                            <p>1 months</p>
+                        </div>
+                        <div class="mb-3">
+                            <h6>Technologies Used</h6>
+                            <div class="tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Laravel</span>
+                                <span>Tailwinds</span>
+                                <span>Node.js</span>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <h6>Role</h6>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Navigation -->
+        <div class="project-nav">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#" class="text-decoration-none">
+                         <i class="fas fa-arrow-left"></i> Previous Project
+                    </a>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#" class="text-decoration-none">
+                        Next Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2023 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>

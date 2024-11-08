@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Your Name</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navbar (sama seperti di halaman lain) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Your Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="portfolio-header">
+        <div class="container text-center">
+            <h1 class="display-4">My Portfolio</h1>
+            <p class="lead">Showcasing my work and projects</p>
+        </div>
+    </header>
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="portfolio-filters mb-5">
+                    <button class="btn btn-outline-primary active mx-2" data-filter="all">All</button>
+                    <button class="btn btn-outline-primary mx-2" data-filter="web">Web Development</button>
+                    <button class="btn btn-outline-primary mx-2" data-filter="mobile">Mobile Apps</button>
+                    <button class="btn btn-outline-primary mx-2" data-filter="design">UI/UX Design</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container py-5">
+        <div class="row">
+            <div class="col-lg-4 portfolio-item" data-aos="fade-up">
+                <div class="card">
+                    <img src="laravel.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Laravel</h5>
+                        <p class="card-text">Brief description of the project and technologies used.</p>
+                        <a href="project-view.html" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="card">
+                    <img src="python.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Brief description of the project and technologies used.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="card">
+                    <img src="c++.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">C++</h5>
+                        <p class="card-text">Brief description of the project and technologies used.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 portfolio-item" data-aos="fade-up">
+                    <div class="card">
+                        <img src="e-commerce.jpg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Web Development</span>
+                            <h5 class="card-title">E-Commerce Platform</h5>
+                            <p class="card-text">A full-featured e-commerce platform built with React and Node.js.</p>
+                            <div class="tech-stack mb-3">
+                                <span class="badge bg-secondary">React</span>
+                                <span class="badge bg-secondary">Node.js</span>
+                                <span class="badge bg-secondary">MongoDB</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                            <a href="#" class="btn btn-outline-primary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card">
+                        <img src="fitnes.jpg" class="card-img-top" alt="Project 5">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Mobile App</span>
+                            <h5 class="card-title">Fitness Tracker App</h5>
+                            <p class="card-text">A mobile app for tracking workouts and nutrition with real-time analytics.</p>
+                            <div class="tech-stack mb-3">
+                                <span class="badge bg-secondary">Flutter</span>
+                                <span class="badge bg-secondary">Firebase</span>
+                                <span class="badge bg-secondary">Google Fit API</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                            <a href="#" class="btn btn-outline-primary">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <img src="Banking.jpg" class="card-img-top" alt="Project 6">
+                        <div class="card-body">
+                            <span class="badge bg-info mb-2">UI/UX Design</span>
+                            <h5 class="card-title">Banking App Redesign</h5>
+                            <p class="card-text">A modern redesign of a banking application focusing on user experience.</p>
+                            <div class="tech-stack mb-3">
+                                <span class="badge bg-secondary">Figma</span>
+                                <span class="badge bg-secondary">Adobe XD</span>
+                                <span class="badge bg-secondary">Prototyping</span>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Design</a>
+                            <a href="#" class="btn btn-outline-primary">Process</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </main>
+
+    <!-- Tambahkan statistik proyek -->
+<div class="row mt-5 text-center">
+    <div class="col-md-3 mb-4" data-aos="fade-up">
+        <div class="stat-card p-4 bg-light rounded">
+            <i class="fas fa-project-diagram fa-3x mb-3 text-primary"></i>
+            <h3>50+</h3>
+            <p>Projects Completed</p>
+        </div>
+    </div>
+    <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="stat-card p-4 bg-light rounded">
+            <i class="fas fa-users fa-3x mb-3 text-primary"></i>
+            <h3>100+</h3>
+            <p>Happy Clients</p>
+        </div>
+    </div>
+    <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="stat-card p-4 bg-light rounded">
+            <i class="fas fa-code fa-3x mb-3 text-primary"></i>
+            <h3>200k+</h3>
+            <p>Lines of Code</p>
+        </div>
+    </div>
+    <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-card p-4 bg-light rounded">
+            <i class="fas fa-award fa-3x mb-3 text-primary"></i>
+            <h3>15+</h3>
+            <p>Awards Won</p>
+        </div>
+    </div>
+</div>
+
+<!-- Tambahkan CTA section -->
+<div class="row mt-5">
+    <div class="col-12 text-center" data-aos="fade-up">
+        <div class="cta-section p-5 bg-primary text-white rounded">
+            <h2>Have a Project in Mind?</h2>
+            <p class="lead">Let's work together to bring your ideas to life!</p>
+            <a href="contact.html" class="btn btn-light btn-lg mt-3">Get in Touch</a>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer (sama seperti di halaman lain) -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
